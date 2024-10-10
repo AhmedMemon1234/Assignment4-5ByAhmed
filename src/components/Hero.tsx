@@ -5,7 +5,7 @@ const Hero = () => {
     return (
         <div className="relative minh-h-screen">
         <Image className="lg:w-[580px] xl:w-[920px] h-auto absolute right-0 top-0 -z-10"
-        src="food.png " 
+        src="/food.png" 
         width={1000}
          height={600}
           alt="hero bg" 

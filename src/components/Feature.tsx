@@ -61,7 +61,7 @@ const Feature = () => {
         <div className="w-fit mx-auto self-end">
           <Image
             className="w-[100%] max-w-[400px] sm:max-w-full h-auto shadow-2xl"
-            src="salad.jpg"
+            src="/salad.jpg"
             width={300}
             height={600}
             alt="grid image"

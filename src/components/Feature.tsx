@@ -1,7 +1,6 @@
 import React from "react";
 import Dash from "./Dash";
 import Image from "next/image";
-import Link from "next/link";
 const Feature = () => {
   return (
     <div className="container pt-40">
@@ -20,7 +19,7 @@ const Feature = () => {
 
       <div className="grid md:grid-cols-[1fr,37%,1fr] gap-16 mt-10">
         <div className="w-fit mx-auto self-end">
-          <img
+          <Image
             className="w-[100%] max-w-[400px] sm:max-w-full h-auto shadow-2xl"
             src="/f.jpg"
             width={300}
@@ -40,7 +39,7 @@ const Feature = () => {
         </div>
 
         <div className="w-fit mx-auto">
-          <img
+          <Image 
             className="w-[100%] max-w-[400px] sm:max-w-full h-auto shadow-2xl"
             src="/chowmein.jpg"
             width={500}
@@ -60,7 +59,7 @@ const Feature = () => {
         </div>
 
         <div className="w-fit mx-auto self-end">
-          <img
+          <Image
             className="w-[100%] max-w-[400px] sm:max-w-full h-auto shadow-2xl"
             src="salad.jpg"
             width={300}
@@ -82,7 +81,7 @@ const Feature = () => {
 
       <div className="grid md:grid-cols-[1fr,37%,1fr] gap-16 mt-10">
         <div className="w-fit mx-auto self-end">
-          <img
+          <Image
             className="w-[100%] max-w-[400px] sm:max-w-full h-auto shadow-2xl"
             src="/icecream.jpg"
             width={300}
@@ -102,7 +101,7 @@ const Feature = () => {
         </div>
 
         <div className="w-fit mx-auto">
-          <img
+          <Image
             className="w-[100%] max-w-[400px] sm:max-w-full h-auto shadow-2xl"
             src="/butter.jpg"
             width={500}
@@ -121,7 +120,7 @@ const Feature = () => {
         </div>
 
         <div className="w-fit mx-auto self-end">
-          <img
+          <Image
             className="w-[100%] max-w-[400px] sm:max-w-full h-auto shadow-2xl"
             src="/shawarma.jpg"
             width={300}

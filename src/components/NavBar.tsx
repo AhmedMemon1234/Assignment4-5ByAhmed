@@ -5,7 +5,7 @@ const NavBar = () => {
     return(
         <div className="container pt-6">
             <div className="flex justify-between items-center">
-              <img src="/chef.png" width={50} height={50} alt="logo" />
+              <Image src="/chef.png" width={50} height={50} alt="logo" />
               <ul className="md:flex hidden gap-5 items-center font-semibold text-[14px] text-white">
                 <li>Home</li>
                 <li>About</li>

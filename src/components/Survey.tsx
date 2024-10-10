@@ -5,7 +5,7 @@ const Survey = () => {
         <div className="container pt-40">
             <div className="grid lg:grid-cols-[50%,1fr] gap-20">
                 <div>
-                   <img className="w-[100%] h-auto lg:w-auto lg:h-[90vh]" src="/survey.jpg" width={1000} height={600} alt="survey image" />
+                   <Image className="w-[100%] h-auto lg:w-auto lg:h-[90vh]" src="/survey.jpg" width={1000} height={600} alt="survey image" />
                 </div>
                 <div className="self-center">
                     <h2 className="text-4xl md:text-6xl font-bold">Survey</h2>

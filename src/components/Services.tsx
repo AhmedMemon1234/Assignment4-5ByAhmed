@@ -3,22 +3,22 @@ import Dash from "./Dash";
 import ServiceCard from "./ServiceCard";
 const servicesData = [
     {
-        img: "/service hat.png",
+        Image: "/service hat.png",
         title: "Professional Kitchen",
         desc: "Professional Kitchen is a chef’s dream, featuring top-notch appliances and spacious work areas. It's the perfect place to unleash your culinary creativity and craft delicious meals!"
     },
     {
-        img: "/2.png",
+        Image: "/2.png",
         title: "Delivery Service",
         desc: "Delivery Service ensures your favorite meals arrive hot and fresh at your doorstep. Enjoy convenience and speed without compromising on taste!"
     },
     {
-        img: "/burger.png",
+        Image: "/burger.png",
         title: "Delicious Burgers",
         desc: "Delicious Burger is a juicy, flavorful treat stacked with fresh ingredients and mouthwatering toppings. Perfectly grilled and served with a side of fries, it's a meal that satisfies every craving!"
     },
     {
-        img: "/wifi.png",
+        Image: "/wifi.png",
         title: "Free WiFi",
         desc: "Free WiFi offers seamless internet access, allowing you to stay connected while enjoying your meal. Perfect for browsing, working, or sharing your dining experience!"
     }
@@ -44,7 +44,7 @@ const Services = () => {
                 </div>
             </div>
             <div className="grid gap-10 md:grid-cols-4 md:gap-4 pt-8">
-                {servicesData.map((item, index) => ( <ServiceCard key={index} img={item.img} title={item.title} desc={item.desc} />))}
+                {servicesData.map((item, index) => ( <ServiceCard key={index} Image={item.Image} title={item.title} desc={item.desc} />))}
             </div>
         </div>
     )

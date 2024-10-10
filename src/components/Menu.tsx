@@ -1,51 +1,52 @@
 import React from "react";
 import Dash from "./Dash";
 import MenuCard from "./MenuCard";
+import Image from "next/image";
 const menuData = [
     {
-        img: "/20.jpg",
+        Image: "/20.jpg",
         title: "Delicious Sharwarma",
         desc: "Delicious Shawarma features marinated meat wrapped in soft pita, loaded with fresh veggies and savory sauces for a perfect bite!",
         price: "19.50$",
     },
     {
-        img: "/21.jpeg",
+        Image: "/21.jpeg",
         title: "PanCakes",
         desc: "Fluffy pancakes drizzled with syrup and topped with fresh fruit make for a delightful breakfast treat!",
         price: "19.50$",
     },
     {
-        img: "/c.jpg",
+      Image: "/c.jpg",
         title: "Bake Cake",
         desc: "Indulge in a moist, flavorful baked cake, layered with creamy frosting and perfect for any celebration!",
         price: "19.50$",
     },
     {
-        img: "/11.jpg",
+      Image: "/11.jpg",
         title: "HotDog Stick",
         desc: "Savor the fun of a hotdog stick, featuring juicy sausages grilled to perfection and served on a convenient skewer!",
         price: "19.50$",
     },
     {
-        img: "/12.jpg",
+      Image: "/12.jpg",
         title: "Noodles",
         desc: "Delicious noodles tossed in savory sauces and mixed with fresh vegetables make for a satisfying meal!",
         price: "19.50$",
     },
     {
-        img: "/13.jpg",
+      Image: "/13.jpg",
         title: "Sandwich",
         desc: "Enjoy a hearty sandwich stacked with fresh ingredients and flavorful spreads, perfect for a quick and tasty meal!",
         price: "19.50$",
     },
     {
-        img: "/16.webp",
+      Image: "/16.webp",
         title: "Burger",
         desc: "Savor a juicy burger loaded with fresh toppings and served on a soft bun, delivering flavor in every bite!",
         price: "19.50$",
     },
     {
-        img: "/50.jpg",
+      Image: "/50.jpg",
         title: "Tomato Pizza",
         desc: "Indulge in a delicious tomato pizza topped with fresh tomatoes, melted cheese, and fragrant herbs for a perfect slice!",
         price: "19.50$",
@@ -81,7 +82,7 @@ const Menu = () => {
 
       <div className="grid lg:grid-cols-[35%,1fr] gap-10 pt-10">
         <div className="w-fit mx-auto">
-          <img
+          <Image
             className="w-[100%] max-w-[400px] h-auto"
             src="/10.webp"
             width={500}
@@ -91,7 +92,7 @@ const Menu = () => {
         </div>
 
     <div className="grid w-fit max-auto sm:grid-cols-2 gap-4">
-        {menuData.map((item, index) => <MenuCard key={index} img={item.img} title={item.title} desc={item.desc} price={item.price} />)}
+        {menuData.map((item, index) => <MenuCard key={index} Image={item.Image} title={item.title} desc={item.desc} price={item.price} />)}
 
     </div>
 
